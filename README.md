@@ -14,7 +14,7 @@ Website dan aplikasi Android untuk QweenSalon — salon kecantikan di Yogyakarta
 </p>
 <p align="center">
   <img src="public/ss/gallery.png" alt="Galeri" width="45%" />
-  <img src="public/ss/booking.png" alt="Reservasi" width="45%" />
+  <img src="public/ss/reservasi.png" alt="Reservasi" width="45%" />
 </p>
 
 ## Fitur
