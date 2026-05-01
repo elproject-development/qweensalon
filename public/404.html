@@ -4,18 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>QweenSalon</title>
-    <script>
-      // SPA redirect hack for GitHub Pages
-      // Take the redirect from the query param and replace the current URL
-      var redirect = sessionStorage.redirect;
-      delete sessionStorage.redirect;
-      if (redirect && redirect !== window.location.href) {
-        window.history.replaceState(null, null, redirect);
-      }
-    </script>
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      // GitHub Pages SPA hack: redirect to index.html with path preserved
+      var path = window.location.pathname + window.location.search;
+      window.location.replace(window.location.origin + '/' + (path !== '/' ? '?redirect=' + encodeURIComponent(path) : ''));
+    </script>
   </body>
 </html>
