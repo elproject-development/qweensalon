@@ -29,3 +29,8 @@ dist-ssr
 
 .env
 .vite
+
+# Android signing
+android/keystore.properties
+android/*.jks
+android/*.keystore

@@ -2,7 +2,7 @@ import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'com.qweensalonweb.app',
-  appName: 'QweenSalon',
+  appName: 'Qween SalonWeb',
   webDir: 'dist',
   server: {
     androidScheme: 'https',
